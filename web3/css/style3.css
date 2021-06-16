@@ -1,0 +1,7 @@
+.bg-header
+{   
+    background-image: linear-gradient(rgba(136, 255, 229, 0.849),rgba(144, 250, 188, 0.849)),url(https://seoulbeats.com/wp-content/uploads/2020/12/20201210_seoulbeats_nct2020-1440x660.png);
+    height: 85vh;
+    background-size: cover;
+    background-position :center ;
+}
