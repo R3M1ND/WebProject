@@ -1,7 +1,35 @@
+body
+{
+   background-color: black;
+}
 .bg-header
 {   
-    background-image: linear-gradient(rgba(136, 255, 229, 0.849),rgba(144, 250, 188, 0.849)),url(https://seoulbeats.com/wp-content/uploads/2020/12/20201210_seoulbeats_nct2020-1440x660.png);
-    height: 85vh;
-    background-size: cover;
-    background-position :center ;
+    background-image:linear-gradient(rgba(255, 0, 0, 0.349), rgba(78, 34, 34, 0.342)), url(/web3/img/nct5.gif);
+    opacity: 0.7;
+    height: 82vh;
+    background-size: contain;
+    background-position : center ;
+    
+}
+.fontthai
+{
+    font-family: 'Prompt', sans-serif;
+    color: white;
+}
+.heading
+{
+    color:white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.font-main
+{
+    font-family: 'Righteous', cursive;
+}
+.font-sub
+{
+    font-family: 'Do Hyeon', sans-serif;
+    font-style: italic;
 }
