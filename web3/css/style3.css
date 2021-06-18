@@ -6,7 +6,7 @@ body
 {   
     background-image:linear-gradient(rgba(255, 0, 0, 0.349), rgba(78, 34, 34, 0.342)), url(/web3/img/nct5.gif);
     opacity: 0.7;
-    height: 82vh;
+    height: 83vh;
     background-size: contain;
     background-position : center ;
     
@@ -20,7 +20,7 @@ body
 {
     color:white;
     position: absolute;
-    top: 50%;
+    top: 63.8%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -31,5 +31,8 @@ body
 .font-sub
 {
     font-family: 'Do Hyeon', sans-serif;
-    font-style: italic;
+}
+.font-table
+{
+    font-family: 'Prompt', sans-serif;
 }
