@@ -10,6 +10,20 @@ audio
     left: 0;
     bottom: 0;
 }
+::-webkit-scrollbar{
+    width: 10px;
+    
+}
+
+::-webkit-scrollbar-track{/*scroll bar back color*/
+    background: rgb(173, 173, 173);
+}
+::-webkit-scrollbar-thumb{/*scroll bar color*/
+    background: rgb(121, 122, 122);
+}
+::-webkit-scrollbar-thumb:hover{/*ตอนเอาเม้าส์ไปวางบน scroll bar*/
+    background: rgb(64, 64, 65);
+}
 .bg-header
 {   
     background-image: linear-gradient(rgba(255, 255, 255, 0.705), rgba(216, 216, 216, 0.24)),url(/web3.2/img/fairy2.png);
@@ -81,3 +95,11 @@ audio
     background: #bb0000;
     color: white;
 } 
+.card-text
+{
+    height: 5vw;
+}
+.card-img
+{
+    height: 17vw;
+}
