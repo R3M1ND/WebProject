@@ -1,0 +1,33 @@
+body
+{
+    background-color: rgb(232, 233, 221);
+}
+input[type=text],input[type=number]
+{
+    width: 100%;
+    border-style: hidden; 
+    background-color: rgb(250, 250, 250);
+}
+.navbar-color
+{
+    background-color: rgb(32, 32, 32);
+}
+.bg-header
+{   
+    background-image:url(/img/head.png);
+    height: 15vh;
+    background-size: cover;
+    background-position : center ;   
+}
+.font-Righte
+{
+    font-family: 'Righteous', cursive;
+}
+.font-dohyeon
+{   
+    font-family: 'Do Hyeon', sans-serif;
+}
+.font-promt
+{
+    font-family: 'Prompt', sans-serif;
+}
