@@ -35,7 +35,7 @@ audio
 }
 .header-fairytail
 {
-    background-image: url(/img/fairytailHeader2.jpg);
+    background-image: url(img/fairytailHeader2.jpg);
     opacity: 0.9;
     height: 83vh;
     background-size: 80%;
@@ -43,7 +43,7 @@ audio
 }
 .header-sabertooth
 {
-    background-image: url(/img/sabertoothHerder1.png);
+    background-image: url(img/sabertoothHerder1.png);
     opacity: 0.9;
     height: 83vh;
     background-size: 85%;
@@ -51,7 +51,7 @@ audio
 }
 .header-mermaidheel
 {
-    background-image: url(/img/mernaidheelHeader3.jpg);
+    background-image: url(img/mernaidheelHeader3.jpg);
     opacity: 0.9;
     height: 83vh;
     background-size: cover;
