@@ -1,0 +1,153 @@
+body
+{
+   background-color: black;
+   overflow-x: hidden;  
+}
+audio
+{
+    height: 30px;
+    width: 15%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+::-webkit-scrollbar{
+    width: 10px;
+    
+}
+
+::-webkit-scrollbar-track{/*scroll bar back color*/
+    background: rgb(173, 173, 173);
+}
+::-webkit-scrollbar-thumb{/*scroll bar color*/
+    background: rgb(121, 122, 122);
+}
+::-webkit-scrollbar-thumb:hover{/*ตอนเอาเม้าส์ไปวางบน scroll bar*/
+    background: rgb(64, 64, 65);
+}
+.bg-header
+{   
+    background-image: linear-gradient(rgba(255, 255, 255, 0.705), rgba(216, 216, 216, 0.24)),url(/img/fairy2.png);
+    opacity: 0.7;
+    height: 83vh;
+    background-size: cover;
+    background-position : center ;   
+}
+.header-fairytail
+{
+    background-image: url(/img/fairytailHeader2.jpg);
+    opacity: 0.9;
+    height: 83vh;
+    background-size: 80%;
+    background-position : center;   
+}
+.header-sabertooth
+{
+    background-image: url(/img/sabertoothHerder1.png);
+    opacity: 0.9;
+    height: 83vh;
+    background-size: 85%;
+    background-position : center;   
+}
+.header-mermaidheel
+{
+    background-image: url(/img/mernaidheelHeader3.jpg);
+    opacity: 0.9;
+    height: 83vh;
+    background-size: cover;
+    background-position : center;   
+}
+.fontthai
+{
+    font-family: 'Prompt', sans-serif;
+    color: white;
+}
+.heading
+{
+    color:white;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.heading-fairytail
+{
+    color:white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.heading-sabertooth
+{
+    color:white;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-30%, -50%);
+}
+.font-main
+{
+    font-family: 'Righteous', cursive;
+}
+.font-sub
+{
+    font-family: 'Do Hyeon', sans-serif;
+}
+.font-table
+{
+    font-family: 'Prompt', sans-serif;
+}
+.font-quote
+{
+    color: white;
+    font-size: 35px;
+    font-family: 'Times New Roman', serif;
+    font-weight: bold;    
+}
+.icon-bar
+{
+    position: fixed;
+    top: 50%;
+    left: 96.9%;
+    -webkit-transform: translateY(80%);
+    -ms-transform: translateY(80%);
+    transform: translateY(80%);
+}
+.icon-bar a 
+{
+    display: block;
+    text-align: center;
+    padding: 14px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+}
+.icon-bar a:hover
+{
+    opacity: 0.7;
+}
+.facebook 
+{
+    background: #3B5998;
+    color: white;
+}
+  
+.twitter 
+{
+    background: #55ACEE;
+    color: white;
+}
+.youtube 
+{
+    background: #bb0000;
+    color: white;
+} 
+.card-text
+{
+    height: 5vw;
+}
+.card-img
+{
+    height: 17vw;
+}
