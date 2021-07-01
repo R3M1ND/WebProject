@@ -14,7 +14,7 @@ input[type=text],input[type=number]
 }
 .bg-header
 {   
-    background-image:url(/img/head.png);
+    background-image:url(img/head.png);
     height: 15vh;
     background-size: cover;
     background-position : center ;   
