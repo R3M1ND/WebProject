@@ -40,18 +40,21 @@ const apiUrl = " https://pokeapi.co/api/v2/pokemon/"
 let input_id = document.querySelector('.input-id');
 let pokemon_img = document.querySelector('.pokemon-img');
 let name_pokemon = document.querySelector('.name-pokemon');
+let gender_pokemon = document.querySelector('.gender-pokemon');
 
 function getdata()
 {
     axios.get(apiUrl + input_id.value).then(function(response)
     {   
-        name_pokemon.innerHTML = response.data.forms[0].name;
-        pokemon_img.src = response.data.sprites.front_default;
+        name_pokemon.innerHTML = response.data.forms[0].name;    
+        pokemon_img.src = response.data.sprites.front_default;  
+        gender_pokemon.innerHTML = response.data.baby_trigger_item;
     })
     .catch(function(error)
     {
         name_pokemon.innerHTML = "ERROR"
         pokemon_img.src = "";
+        gender_pokemon.innerHTML = "ERROR"
     })
 }
 
