@@ -1,0 +1,21 @@
+body
+{
+    background-image: url(img/header.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.font-Zen
+{
+    font-family: 'Zen Maru Gothic', sans-serif;
+}
+.heading
+{
+    position: absolute;
+}
+.row
+{
+    display: flex;
+    flex-direction: row;
+}
